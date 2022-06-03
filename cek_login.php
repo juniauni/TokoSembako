@@ -11,7 +11,7 @@
 				session_start();
 				$_SESSION['nama'] = $row['nama'];
 				$_SESSION['login'] = true;
-				header('location:hal-admin.php');
+				header('location:admin-hal.php');
 			}
 		}
 		else {
